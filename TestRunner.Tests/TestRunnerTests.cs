@@ -6,13 +6,11 @@
  */
 
 using System;
-using System.TestTools.UnitTesting;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Axel.TestTools.UnitTesting.TestRunner.Test
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     [TestClass]
-    public class TestRunnerTest
+    public class TestRunnerTests
     {
         public bool Initialized { get; set; }
 
@@ -23,7 +21,7 @@ namespace Axel.TestTools.UnitTesting.TestRunner.Test
 
         [TestMethod]
         public void EmptyTest() {
-            var runner = new System.TestTools.UnitTesting.TestRunner();
+            var runner = new TestRunner();
             Assert.IsNotNull(runner);
         }
 

@@ -7,9 +7,9 @@
 
 using System.Reflection;
 
-namespace Axel.TestTools.UnitTesting.TestRunner.Test
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
-    class Program : System.TestTools.UnitTesting.TestRunner
+    class Program : TestRunner
     {
         static void Main(string[] args) {
             var program = new Program();

@@ -5,13 +5,13 @@
  * as published by Sam Hocevar. See the COPYING file for more details.
  */
 
+using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace System.TestTools.UnitTesting
+namespace Microsoft.VisualStudio.TestTools.UnitTesting
 {
     /// <summary>
     /// The TestRunner.

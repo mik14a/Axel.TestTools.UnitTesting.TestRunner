@@ -1,4 +1,4 @@
-﻿Axel.TestTools.UnitTesting.TestRunner
+﻿TestRunner
 =====================================
 
 Easy debug your Unit Test Project with Exception Helper.
@@ -8,7 +8,7 @@ Easy debug your Unit Test Project with Exception Helper.
 1. Add startup object and run unit test project.
 
 ```cs
-class Program : System.TestTools.UnitTesting.TestRunner
+class Program : TestRunner
 {
     static void Main(string[] args) {
         var program = new Program();

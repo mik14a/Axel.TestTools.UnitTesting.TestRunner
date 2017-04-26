@@ -6,7 +6,7 @@
     <SharedGUID>c5825d0a-1165-422b-93f7-5b5862c942f0</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>System.TestTools.UnitTesting</Import_RootNamespace>
+    <Import_RootNamespace>Microsoft.VisualStudio.TestTools.UnitTesting</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)TestRunner.cs" />

@@ -7,8 +7,8 @@
     <ProjectGuid>{214D0437-0AF3-4351-BA0F-32F3AFFDCCBE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Axel.TestTools.UnitTesting.TestRunner.Test</RootNamespace>
-    <AssemblyName>Axel.TestTools.UnitTesting.TestRunner.Test</AssemblyName>
+    <RootNamespace>Microsoft.VisualStudio.TestTools.UnitTesting</RootNamespace>
+    <AssemblyName>TestRunner.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,15 +53,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestRunnerTest.cs" />
+    <Compile Include="TestRunnerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Axel.TestTools.UnitTesting.TestRunner.Net\Axel.TestTools.UnitTesting.TestRunner.Net.csproj">
+    <ProjectReference Include="..\TestRunner\TestRunner.Net.csproj">
       <Project>{8b56f179-5f5f-40a0-8903-fef06b16c4aa}</Project>
-      <Name>Axel.TestTools.UnitTesting.TestRunner.Net</Name>
+      <Name>TestRunner.Net</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -1,18 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Axel.TestTools.UnitTesting.TestRunner", "Axel.TestTools.UnitTesting.TestRunner\Axel.TestTools.UnitTesting.TestRunner.shproj", "{C5825D0A-1165-422B-93F7-5B5862C942F0}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestRunner", "TestRunner\TestRunner.shproj", "{C5825D0A-1165-422B-93F7-5B5862C942F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axel.TestTools.UnitTesting.TestRunner.Net", "Axel.TestTools.UnitTesting.TestRunner.Net\Axel.TestTools.UnitTesting.TestRunner.Net.csproj", "{8B56F179-5F5F-40A0-8903-FEF06B16C4AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRunner.Net", "TestRunner\TestRunner.Net.csproj", "{8B56F179-5F5F-40A0-8903-FEF06B16C4AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axel.TestTools.UnitTesting.TestRunner.Test", "Axel.TestTools.UnitTesting.TestRunner.Test\Axel.TestTools.UnitTesting.TestRunner.Test.csproj", "{214D0437-0AF3-4351-BA0F-32F3AFFDCCBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRunner.Tests", "TestRunner.Tests\TestRunner.Tests.csproj", "{214D0437-0AF3-4351-BA0F-32F3AFFDCCBE}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Axel.TestTools.UnitTesting.TestRunner\Axel.TestTools.UnitTesting.TestRunner.projitems*{8b56f179-5f5f-40a0-8903-fef06b16c4aa}*SharedItemsImports = 4
-		Axel.TestTools.UnitTesting.TestRunner\Axel.TestTools.UnitTesting.TestRunner.projitems*{c5825d0a-1165-422b-93f7-5b5862c942f0}*SharedItemsImports = 13
+		TestRunner\TestRunner.projitems*{c5825d0a-1165-422b-93f7-5b5862c942f0}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
